@@ -1,11 +1,10 @@
-
 #!/usr/bin/python3
 
-for i in range(0, 10):
-    for j in range(1, 10):
-        if i >= j:
+for digt1 in range(0, 10):
+    for digt2 in range(0, 10):
+        if digt1 - digt2 >= 0:
             continue
-        if i == 8 and j == 9:
-            print("{:d}{:d}".format(i, j))
+        elif digt1 == 8 and digt2 == 9:
+            print("{}{}".format(digt1, digt2), end="\n")
         else:
-            print("{:d}{:d}".format(i, j), end=", ")
+            print("{}{}".format(digt1, digt2), end=", ")
