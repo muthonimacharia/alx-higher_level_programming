@@ -1,9 +1,9 @@
 #!/usr/bin/python3
+""" this module defines a class Square"""
+
+
 class Square:
-    """type class square"""
+    """ class for Square"""
     def __init__(self, size):
-        """Init the square class
-        Args:
-        param1: size is the type int attribute to make it private
-        """
+        """ Initialize class """
         self.__size = size
